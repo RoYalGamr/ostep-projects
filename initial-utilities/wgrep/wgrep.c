@@ -34,6 +34,7 @@ int main(int argc,char* argv[]){
 					printf("%s",line);
 				}
 			}
+			fclose(stream);	
 		}
 	}
 	free(line);
